@@ -9,7 +9,7 @@ In the TCCI scheme based network, wireless stations can transmit concurrently.
 - We have modified its open-source firmware (modwifi-ath9k-htc) to disable carrier sense, RTS/CTS, ACK, and set SIFS/AIFS to its minimum. 
 - Linux 802.11 ath9k driver were also modified \cite{wslgithub} (in Ubuntu) to implement concurrent transmission.
 
-Source codes and tools related to the WiFi dongles (i.e stations) are hosted here only not the USRp based Access points (AP).
+Only the source codes and tools related to the WiFi dongles (i.e stations) are hosted here, not the USRP based Access points (AP).
 
 ### Step 1: Installing atheros driver tools
 
