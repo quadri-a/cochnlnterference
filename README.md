@@ -1,4 +1,5 @@
 # TCCI: Taming Co-Channel Interference 
+We present TCCI, a practical scheme to tame the co-channel interference using AP's (USRP based AP) multiple antennas, which in turn enable concurrent transmissions in WLANs. 
 
 ## Enabling Concurrent Transmission using Commercial Wireless USB Adapters
 
