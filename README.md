@@ -7,7 +7,7 @@ In the TCCI scheme based network, wireless stations can transmit concurrently.
 
 - For the stations, we use [Alfa AWUS036NHA Wireless USB Adapters](http://www.amazon.com/dp/B004Y6MIXS?tag=modwiffir-20), which are built using Qualcomm Atheros AR9271 chipset and support IEEE 802.11b/g/n.
 - We have modified its open-source firmware (modwifi-ath9k-htc) to disable carrier sense, RTS/CTS, ACK, and set SIFS/AIFS to its minimum. 
-- Linux 802.11 ath9k driver were also modified \cite{wslgithub} (in Ubuntu) to implement concurrent transmission.
+- Linux 802.11 ath9k driver were also modified (in Ubuntu) to implement concurrent transmission.
 
 Only the source codes and tools related to the WiFi dongles (i.e stations) are hosted here, not the USRP based Access points (AP).
 
