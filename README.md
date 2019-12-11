@@ -25,6 +25,7 @@ Please visit [here](https://github.com/vanhoefm/modwifi/blob/master/README.md) t
   - It will also configure the WiFi dongle to transmit in monitor mode. 
   - Proper installation of the modwifi-ath9k-htc should allow the rest of the source code to disable CSMA/ACK and set the IFS duration.
   - Finally, it will initiate packet transmission. 
+  - The source codes for packet transmission are modified based on the this [project](https://befinitiv.wordpress.com/wifibroadcast-analog-like-transmission-of-live-video-data/wifibroadcast-fpv-manual-setup/). To learn more or cite, please visit the webpage.
  
  #### Receiver
  - Please open tcci_rx.sh shell script and make sure to update the path to where you downloaded the files.
